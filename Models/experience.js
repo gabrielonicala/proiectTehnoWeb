@@ -59,6 +59,7 @@ const Experience = sequelize.define
   },
   {
     tableName: "Experiences", 
+    timestamps: false 
   }
 );
 
