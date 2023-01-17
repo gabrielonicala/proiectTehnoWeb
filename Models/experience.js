@@ -28,17 +28,17 @@ const Experience = sequelize.define
     },
     oraPlecare:
     {
-        type: DataTypes.DATE,
+        type: DataTypes.TIME,
         allowNull: false
     },
     oraSosire:
     {
-        type: DataTypes.DATE,
+        type: DataTypes.TIME,
         allowNull: false
     },
     durataCalatorie:
     {
-        type: DataTypes.DATE,
+        type: DataTypes.TIME,
         allowNull: false
     },
     gradAglomerare:
