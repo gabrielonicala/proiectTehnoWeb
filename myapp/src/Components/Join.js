@@ -20,7 +20,8 @@ const Join = () =>
   };
 
   return (
-    <><div className="welcome-bar">Devino membru!</div><form className="joinForm" onSubmit={handleSubmit}>
+    <><div className="welcome-bar">Devino membru!</div>
+    <form className="joinForm" onSubmit={handleSubmit}>
       <label>
         Nume:
         <input type="text" value={nume} onChange={(e) => setNume(e.target.value)} />

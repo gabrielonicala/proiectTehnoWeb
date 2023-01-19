@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
+import './Login.css';
 
 const Login = () => {
-  const [numeUtilizator, setNumeUtilizator] = useState('');
+  const [adresaMail, setAdresaMail] = useState('');
   const [parola, setParola] = useState('');
 
   const handleSubmit = (event) => {
@@ -10,14 +11,13 @@ const Login = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="loginForm" onSubmit={handleSubmit}>
       <label>
-        Nume utilizator:
+        Adresa de e-mail:
         <input
-          type="text"
-          value={numeUtilizator}
-          onChange={(event) => setNumeUtilizator(event.target.value)}
-        />
+          type="email"
+          value={adresaMail}
+          onChange={(event) => setAdresaMail(event.target.value)} />
       </label>
       <br />
       <label>
@@ -25,11 +25,10 @@ const Login = () => {
         <input
           type="password"
           value={parola}
-          onChange={(event) => setParola(event.target.value)}
-        />
+          onChange={(event) => setParola(event.target.value)} />
       </label>
       <br />
-      <button type="Intra in cont!">Log in</button>
+      <input type="submit" value="Logheaza-te!" />
     </form>
   );
 };

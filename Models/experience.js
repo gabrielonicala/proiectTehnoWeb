@@ -39,7 +39,7 @@ const Experience = sequelize.define
     durataCalatorie:
     {
         type: DataTypes.TIME,
-        allowNull: false
+        allowNull: true
     },
     gradAglomerare:
     {

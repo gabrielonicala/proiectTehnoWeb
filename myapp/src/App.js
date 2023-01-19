@@ -4,6 +4,7 @@ import { Routes } from 'react-router-dom';
 
 import Login from './Components/Login.js';
 import Join from './Components/Join.js';
+import Browse from './Components/Browse.js';
 import Square from './Components/Square.js';
 
 const App = () => {
@@ -11,8 +12,9 @@ const App = () => {
     <Router>
       <Routes>
         <Route exact path="/" element={<Square/>} />
-        <Route path="/join" element={<Join/>} />
-        <Route path="/login" element={<Login/>} />
+        <Route path="/inregistrare" element={<Join/>} />
+        <Route path="/logare" element={<Login/>} />
+        <Route path="/experiente" element={<Browse/>} />
       </Routes>
     </Router>
   );

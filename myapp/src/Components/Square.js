@@ -8,9 +8,9 @@ const Square = () =>
     <>
       <div className="square">
         <div className="square-content">
-          <Link className="square-button" to="/join">Inregistreaza-te!</Link>
-          <Link className="square-button" to="/login">Logheaza-te!</Link>
-          <Link className="square-button" to="/experiences">Rasfoieste experiente!</Link>
+          <Link className="square-button" to="/inregistrare">Inregistreaza-te!</Link>
+          <Link className="square-button" to="/logare">Logheaza-te!</Link>
+          <Link className="square-button" to="/experiente">Rasfoieste experiente!</Link>
         </div>
       </div>
     </>
