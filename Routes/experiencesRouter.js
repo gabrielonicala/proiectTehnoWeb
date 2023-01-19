@@ -3,10 +3,10 @@ import * as experiencesController from "../Controllers/experiencesController.js"
 
 const router = express.Router();
 
-router.get("/experiences", experiencesController.getAllExperiencesFromDB);
-router.post("/newExperience", experiencesController.insertExperienceIntoDB);
-router.get("/experiences/:idExperienta", experiencesController.getExperienceFromDBById);
-router.put("/experiences/:idExperienta", experiencesController.updateExperienceById); 
-router.delete("/experiences/:idExperienta", experiencesController.deleteExperience); 
+router.get("/experiente", experiencesController.getAllExperiencesFromDB);
+router.post("/experientaNoua", experiencesController.insertExperienceIntoDB);
+router.get("/experiente/:idExperienta", experiencesController.getExperienceFromDBById);
+router.put("/experiente/:idExperienta", experiencesController.updateExperienceById); 
+router.delete("/experiente/:idExperienta", experiencesController.deleteExperience); 
 
 export { router as experiencesRouter };

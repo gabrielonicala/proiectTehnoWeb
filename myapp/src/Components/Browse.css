@@ -1,29 +1,50 @@
-.browsePage 
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px;
-  }
-  
-.searchBar 
-{
-    margin: 10px 0;
-    padding: 12px 20px;
-    width: 100%;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
+.browsePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  background-image: url('./imagine.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-  
-.experience-item 
+
+.searchBar {
+  margin: 10px 0;
+  padding: 10px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #4CAF50;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.cautaExp
 {
-    margin: 20px 0;
-    padding: 10px;
-    width: 100%;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-  }
+  background-color: #4CAF50;
+}
+
+.searchBar:focus {
+  border-bottom: 2px solid #4CAF50;
+}
+
+.experience-item {
+  margin: 20px 0;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease-in-out;
+}
+
+.experience-item:hover {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transform: translateY(-5px);
+}
