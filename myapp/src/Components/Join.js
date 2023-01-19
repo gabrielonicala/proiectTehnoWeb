@@ -12,15 +12,12 @@ const Join = () =>
   const handleSubmit = (event) => 
   {
     event.preventDefault();
-    console.log('adresaMail', adresaMail);
-    console.log('parola', parola);
-    console.log('prenume', prenume);
-    console.log('nume', nume);
-    console.log('nrTelefon', nrTelefon);
+    window.location.href = '/cont';
   };
 
   return (
-    <><div className="welcome-bar">Devino membru!</div>
+    <>
+    <div className="welcome-bar">Devino membru!</div>
     <form className="joinForm" onSubmit={handleSubmit}>
       <label>
         Nume:
@@ -50,7 +47,8 @@ const Join = () =>
       </label>
       <br />
       <input type="submit" value="Inregistreaza-te!" />
-    </form></>
+    </form>
+    </>
   );
 };
 
