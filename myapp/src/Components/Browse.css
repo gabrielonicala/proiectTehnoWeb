@@ -1,11 +1,13 @@
-.browsePage {
+.browsePage 
+{
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 50px;
 }
 
-.searchBar {
+.searchBar 
+{
   margin: 10px 0;
   padding: 10px 20px;
   width: 100%;
@@ -24,11 +26,13 @@
   background-color: #4CAF50;
 }
 
-.searchBar:focus {
+.searchBar:focus 
+{
   border-bottom: 2px solid #4CAF50;
 }
 
-.experience-item {
+.experience-item 
+{
   margin: 20px 0;
   padding: 20px;
   width: 100%;
@@ -40,7 +44,8 @@
   transition: all 0.3s ease-in-out;
 }
 
-.experience-item:hover {
+.experience-item:hover 
+{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transform: translateY(-5px);
 }

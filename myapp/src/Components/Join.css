@@ -11,26 +11,28 @@
     
 }
   
-  .joinForm label 
-  {
+.joinForm label 
+{
     display: block;
     margin-bottom: 10px;
     font-size: 18px;
-  }
+}
   
-  .joinForm input[type="text"],
-  .joinForm input[type="email"],
-  .joinForm input[type="password"],
-  .joinForm input[type="tel"] {
+.joinForm input[type="text"],
+.joinForm input[type="email"],
+.joinForm input[type="password"],
+.joinForm input[type="tel"] 
+{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 4px;
-  }
+}
   
-  .joinForm input[type="submit"] {
+.joinForm input[type="submit"] 
+{
     width: 100%;
     background-color: #769C22;
     color: white;
@@ -40,13 +42,15 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
+}
   
-  .joinForm input[type="submit"]:hover {
+.joinForm input[type="submit"]:hover
+{
     background-color: #769C22;
-  }
+}
 
-  .welcome-bar {
+.welcome-bar 
+{
     width: 465px;
     height: 30px;
     background-color: #769C22; 
@@ -58,4 +62,4 @@
     top: -0px;
     left: 50%;
     transform: translateX(-50%);
-  }
+}

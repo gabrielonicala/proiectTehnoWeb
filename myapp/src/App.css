@@ -1,4 +1,5 @@
-.square {
+.square 
+{
   width: 200px;
   height: 200px;
   background-color: #ccc;
@@ -12,7 +13,8 @@
   transform: translate(-50%, -50%);
 }
 
-button {
+button 
+{
   width: 80%;
   margin: 10px 0;
 }
