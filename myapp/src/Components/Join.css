@@ -32,7 +32,7 @@
   
   .joinForm input[type="submit"] {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: #769C22;
     color: white;
     padding: 18px 20px; 
     font-size: 20px; 
@@ -43,13 +43,13 @@
   }
   
   .joinForm input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #769C22;
   }
 
   .welcome-bar {
     width: 465px;
     height: 30px;
-    background-color: #4CAF50; 
+    background-color: #769C22; 
     color: white;
     font-size: 20px; 
     padding: 30px 0;
