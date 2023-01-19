@@ -3,10 +3,6 @@
   flex-direction: column;
   align-items: center;
   padding: 50px;
-  background-image: url('./imagine.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .searchBar {
@@ -14,7 +10,7 @@
   padding: 10px 20px;
   width: 100%;
   box-sizing: border-box;
-  background-color: #4CAF50;
+  background-color: #769C22;
   border: none;
   border-bottom: 2px solid #ccc;
   border-radius: 4px;
