@@ -2,12 +2,13 @@ import React, { useState } from 'react';
 import './Login.css';
 
 const Login = () => {
+
   const [adresaMail, setAdresaMail] = useState('');
   const [parola, setParola] = useState('');
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Send a request to the server to authenticate the user
+    window.location.href = '/cont';
   };
 
   return (
